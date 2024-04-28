@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "big-data-formats"
+version = "0.1.0"
+description = ""
+authors = ["Alena <1874340+strangelet@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+avro = "^1.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
